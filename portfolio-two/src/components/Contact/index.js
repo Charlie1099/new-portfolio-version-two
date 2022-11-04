@@ -3,6 +3,7 @@ import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useRef, useState } from 'react'
 import emailjs from '@emailjs/browser'
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -22,7 +23,7 @@ const Contact = () => {
         'service_hbjuogl',
         'template_n8qg6z',
         form.current,
-        'XTA84MmKR-0DnAePl',
+        'XTA84MmKR-0DnAePl'
       )
       .then(
         () => {
@@ -32,7 +33,6 @@ const Contact = () => {
           alert('Failed to send message please try again')
         }
       )
-     
   }
 
   return (
@@ -51,7 +51,7 @@ const Contact = () => {
             alwdjlakjwlawkjdlajwdjalwdjlajwdljalwdjalwjdlajwdlajwdljnncee
             keiejdkmejdodmdmfogfoema;lal;kwdslkjefsjhroefwpesjln.
           </p>
-          
+
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
               <ul>
@@ -88,8 +88,8 @@ const Contact = () => {
             </form>
           </div>
         </div>
-        <div className='info-map'>
-          Cameron Charleswroth 
+        <div className="info-map">
+          Cameron Charleswroth
           <br />
           United States of America
           <br />
@@ -97,8 +97,20 @@ const Contact = () => {
           <br />
           <span>Cdcharlesworth@gmail.com</span>
         </div>
-        <div className='map-wrap'>
-
+        <div className="map-wrap">
+          <MapContainer
+            center={[34.0003, -81.0398]}
+            zoom={13}
+            scrollWheelZoom={false}
+          >
+            <TileLayer
+              attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            />
+            <Marker position={[34.0003, -81.0398]}>
+              
+            </Marker>
+          </MapContainer>
         </div>
       </div>
       <Loader type="pacman" />
