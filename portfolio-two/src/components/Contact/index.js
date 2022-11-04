@@ -1,12 +1,12 @@
-import './index.scss';
-import Loader from 'react-loaders';
-import AnimatedLetters from '../AnimatedLetters';
-import { useEffect, useRef, useState } from 'react';
-import emailjs from '@emailjs/browser';
+import './index.scss'
+import Loader from 'react-loaders'
+import AnimatedLetters from '../AnimatedLetters'
+import { useEffect, useRef, useState } from 'react'
+import emailjs from '@emailjs/browser'
 
 const Contact = () => {
-  const [letterClass, setLetterClass] = useState('text-animate');
-    const refForm = useRef;
+  const [letterClass, setLetterClass] = useState('text-animate')
+  const form = useRef()
 
   useEffect(() => {
     setTimeout(() => {
@@ -18,12 +18,21 @@ const Contact = () => {
     e.preventDefault()
 
     emailjs
-    .sendForm(
-        'gamil',
-        '9eyQMwJ9KrEpjwTNk',
-        refForm.current,
-        ''
-    )
+      .sendForm(
+        'service_hbjuogl',
+        'template_n8qg6z',
+        form.current,
+        'XTA84MmKR-0DnAePl',
+      )
+      .then(
+        () => {
+          alert('Message sent successfully!')
+        },
+        () => {
+          alert('Failed to send message please try again')
+        }
+      )
+     
   }
 
   return (
@@ -42,28 +51,54 @@ const Contact = () => {
             alwdjlakjwlawkjdlajwdjalwdjlajwdljalwdjalwjdlajwdlajwdljnncee
             keiejdkmejdodmdmfogfoema;lal;kwdslkjefsjhroefwpesjln.
           </p>
-          <div className='contact-form'>
-            <form ref={refForm} onSubmit={sendEmail}>
-                <ul>
-                    <li className='half'>
-                        <input type='text' name='name' placeholder='Name' required />
-                    </li>
-                    <li className='half'>
-                        <input type='text' name='email' placeholder='Email' required />
-                    </li>
-                    <li>
-                        <input placeholder='Subject' type='text' name='subject' required />
-                    </li>
-                    <li>
-                        <textarea placeholder='Message' name='message' required></textarea>
-                    </li>
-                    <li>
-                        <input type='submit' className='flat-button' value='SEND' />
-                    </li>
-                </ul>
+          
+          <div className="contact-form">
+            <form ref={form} onSubmit={sendEmail}>
+              <ul>
+                <li className="half">
+                  <input type="text" name="name" placeholder="Name" required />
+                </li>
+                <li className="half">
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Email"
+                    required
+                  />
+                </li>
+                <li>
+                  <input
+                    placeholder="Subject"
+                    type="text"
+                    name="subject"
+                    required
+                  />
+                </li>
+                <li>
+                  <textarea
+                    placeholder="Message"
+                    name="message"
+                    required
+                  ></textarea>
+                </li>
+                <li>
+                  <input type="submit" className="flat-button" value="SEND" />
+                </li>
+              </ul>
             </form>
-
           </div>
+        </div>
+        <div className='info-map'>
+          Cameron Charleswroth 
+          <br />
+          United States of America
+          <br />
+          South Carolina, Columbia
+          <br />
+          <span>Cdcharlesworth@gmail.com</span>
+        </div>
+        <div className='map-wrap'>
+
         </div>
       </div>
       <Loader type="pacman" />
