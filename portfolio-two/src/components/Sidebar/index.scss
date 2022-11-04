@@ -74,20 +74,26 @@ nav {
 
       &:first-child {
         &:after {
-          content: 'HOME';
+          content: 'Home';
         }
       }
     }
 
     a.about-link {
       &:after {
-        content: 'ABOUT';
+        content: 'About';
+      }
+    }
+
+    a.portfolio-link {
+      &:after {
+        content: 'Portfolio';
       }
     }
 
     a.contact-link {
       &:after {
-        content: 'CONTACT';
+        content: 'Contact';
       }
     }
 
