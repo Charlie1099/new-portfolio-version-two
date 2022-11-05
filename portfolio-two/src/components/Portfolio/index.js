@@ -2,7 +2,7 @@ import React from 'react';
 import './index.scss';
 import Loder from 'react-loaders';
 import AnimatedLetters from '../AnimatedLetters';
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useState } from 'react';
 import porfolioData from '../../data/portfolio.json';
 
 const Portfolio = () => {

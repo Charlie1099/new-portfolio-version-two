@@ -2,17 +2,21 @@ import { Link, NavLink } from 'react-router-dom'
 import './index.scss'
 import LogoS from '../../assets/images/logo-s.png'
 import LogoSubtitle from '../../assets/images/logo_sub.png'
-import { faEnvelope, faHome, faSuitcase, faUser } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faHome, faSuitcase, faUser, faBars } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { useState } from 'react'
 
-const Sidebar = () => (
+const Sidebar = () => {
+  const [showNav, setShowNav] = useState(false);
+
+return (
   <div className="nav-bar">
     <Link className="logo" to="/">
       <img src={LogoS} alt="logo" />
       <img className="sub-logo" src={LogoSubtitle} alt="slobodan" />
     </Link>
-    <nav>
+    <nav className={showNav ? 'mobile-show' : ''}>
 
       <NavLink exact="true" activeclassname="active" to="/">
         <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
@@ -76,7 +80,15 @@ const Sidebar = () => (
         </a>
       </li>
     </ul>
+    <FontAwesomeIcon
+    onClick={() => setShowNav(true)}
+    icon={faBars}
+    color="#ffd700"
+    size='3x'
+    className='hamburger-icon'
+    />
   </div>
-)
+  )
+}
 
 export default Sidebar
