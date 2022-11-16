@@ -11,7 +11,7 @@ import {
   faClose,
 } from '@fortawesome/free-solid-svg-icons'
 
-import { NavLink } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
 
 const Sidebar = () => {
   const [showNav, setShowNav] = useState(false)
@@ -74,15 +74,6 @@ const Sidebar = () => {
             rel="noreferrer"
           >
             <FontAwesomeIcon icon={faGithub} color="#4d4d4e" className="anchor-icon"/>
-          </a>
-        </li>
-        <li>
-          <a
-            href="mailto:cdcharlesworth@gmail.com?subject=Contact from Portfolio Site"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" className="anchor-icon"/>
           </a>
         </li>
       </ul>

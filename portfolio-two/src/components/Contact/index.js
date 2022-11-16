@@ -47,9 +47,9 @@ const Contact = () => {
             />
           </h1>
           <p>
-            hi haklfdalwkfja a;lwjdflakjwdfj alkwjdlkajwdlkja
-            alwdjlakjwlawkjdlajwdjalwdjlajwdljalwdjalwjdlajwdlajwdljnncee
-            keiejdkmejdodmdmfogfoema;lal;kwdslkjefsjhroefwpesjln.
+            Hi I'd love to talk to you I'm open to joinur developer roles and 
+            Freelance work as well. Use this form to reach out.
+            
           </p>
 
           <div className="contact-form">
