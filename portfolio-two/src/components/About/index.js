@@ -33,8 +33,7 @@ const About = () => {
         <p>
           Hi, i'm very excited to work in the tech filed its something that has
           all ways intrested me. I am aiming to start my jurney in a Junior role
-          with a company that will take responsiblity for helping me grow to
-          become the best that I can be.
+          with a company that will help me grow to become the best developer that I can become.
         </p>
         <p>
           I have recently completed a Full Stack Bootcamp from the University of

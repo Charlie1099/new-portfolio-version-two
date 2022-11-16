@@ -10,52 +10,52 @@
             "github": "https://github.com/Charlie1099/coding-quiz"
         },
         {
-            "cover": "/portfolio-pics/CodingQuiz.png",
-            "title": "Coding Quiz",
-            "description": "This is a quiz that helps developers test there coding knowledge",
-            "languages": "Languages/Other used to bulid this project: HTML | CSS | JS",
-            "url": "https://charlie1099.github.io/coding-quiz",
-            "github": "https://github.com/Charlie1099/coding-quiz"
+            "cover": "/portfolio-pics/DayScheduler.png",
+            "title": "Day Scheduler",
+            "description": "Day scheduler is a app that you can add tasks which will show you if you are past the time or if you are well with in the time frame for the task",
+            "languages": "Languages/Other used to bulid this project: HTML | CSS | JS | Third pary API",
+            "url": "https://charlie1099.github.io/day-scheduler",
+            "github": "https://github.com/Charlie1099/day-scheduler"
         },
         {
-            "cover": "/portfolio-pics/CodingQuiz.png",
-            "title": "Coding Quiz",
-            "description": "This is a quiz that helps developers test there coding knowledge",
-            "languages": "Languages/Other used to bulid this project: HTML | CSS | JS",
-            "url": "https://charlie1099.github.io/coding-quiz",
-            "github": "https://github.com/Charlie1099/coding-quiz"
+            "cover": "/portfolio-pics/EmployeeTracker.png",
+            "title": "Employee Tracker",
+            "description": "This is a command line application that provides a employer a complete CMS database so they have the ability to view employees, view roles, view departments, add employees, add roles, add departments, and update employee records all from the command line prompt.",
+            "languages": "Languages/Other used to bulid this project: SQL | JS | npm inquirer | npm chalk",
+            "url": "https://watch.screencastify.com/v/QYKC6NOmx5YDSgFbexXN",
+            "github": "https://github.com/Charlie1099/employee-tracker"
         },
         {
-            "cover": "/portfolio-pics/CodingQuiz.png",
-            "title": "Coding Quiz",
+            "cover": "/portfolio-pics/NodeGeneratedReadeMe.png",
+            "title": "Node Generated ReadeMe",
             "description": "This is a quiz that helps developers test there coding knowledge",
-            "languages": "Languages/Other used to bulid this project: HTML | CSS | JS",
-            "url": "https://charlie1099.github.io/coding-quiz",
-            "github": "https://github.com/Charlie1099/coding-quiz"
+            "languages": "Languages/Other used to bulid this project: JS | npm | Node.Js",
+            "url": "https://watch.screencastify.com/v/7yp9YRZyQFDSj8l64ruv",
+            "github": "https://github.com/Charlie1099/employee-tracker"
         },
         {
-            "cover": "/portfolio-pics/CodingQuiz.png",
-            "title": "Coding Quiz",
-            "description": "This is a quiz that helps developers test there coding knowledge",
-            "languages": "Languages/Other used to bulid this project: HTML | CSS | JS",
-            "url": "https://charlie1099.github.io/coding-quiz",
-            "github": "https://github.com/Charlie1099/coding-quiz"
+            "cover": "/portfolio-pics/TeamProfileGenerator.png",
+            "title": "Team Profile Generator",
+            "description": "This app will let you use Node.js command line application that will take information about employees on a team and will generate a HTML page that shows the summaries for each person.",
+            "languages": "Languages/Other used to bulid this project: JS | npm | Node.Js | Object Oriented Programming",
+            "url": "https://watch.screencastify.com/v/ywDrDBsMqopCeJgsu1ZT",
+            "github": "https://github.com/Charlie1099/Team-Profile-Generator"
         },
         {
-            "cover": "/portfolio-pics/CodingQuiz.png",
-            "title": "Coding Quiz",
-            "description": "This is a quiz that helps developers test there coding knowledge",
-            "languages": "Languages/Other used to bulid this project: HTML | CSS | JS",
-            "url": "https://charlie1099.github.io/coding-quiz",
-            "github": "https://github.com/Charlie1099/coding-quiz"
+            "cover": "/portfolio-pics/WeatherAPI.png",
+            "title": "Weather Scaner",
+            "description": "Weather Scaner, is project is designed to display the current and five day weather forcast of a given city that you are visiting as a traveler.",
+            "languages": "Languages/Other used to bulid this project: HTML | CSS | JS | Server side API",
+            "url": "https://charlie1099.github.io/weather-tracker",
+            "github": "https://github.com/Charlie1099/weather-tracker"
         },
         {
-            "cover": "/portfolio-pics/CodingQuiz.png",
-            "title": "Coding Quiz",
-            "description": "This is a quiz that helps developers test there coding knowledge",
-            "languages": "Languages/Other used to bulid this project: HTML | CSS | JS",
-            "url": "https://charlie1099.github.io/coding-quiz",
-            "github": "https://github.com/Charlie1099/coding-quiz"
+            "cover": "/portfolio-pics/GroupProject.png",
+            "title": "Book Finder (Group project)",
+            "description": "Book finder is a project that will help book enthusiast and anyone that wants to look for there next book to read and also save it to a list to keep track of the books that will be next",
+            "languages": "Languages/Other used to bulid this project: HTML | CSS | JS | Server side API",
+            "url": "https://conleyannmarie.github.io/book-finder/",
+            "github": "https://github.com/conleyannmarie/book-finder"
         }
 
     ]
