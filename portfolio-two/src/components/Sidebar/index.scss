@@ -98,7 +98,7 @@
 
     a.active {
       svg {
-        color: #ffd700;
+        color: #ffd900;
       }
     }
   }
@@ -135,6 +135,10 @@
   display: none;
 }
 
+.hamburger-icon, .close-icon {
+  display: none;
+}
+
 
 @media screen and (max-width: 1200px) {
   .nav-bar { 
@@ -142,6 +146,7 @@
     position: initial;
     height: auto;
     min-height: auto;
+    
 
      ul, nav {
       display: none;
@@ -157,10 +162,7 @@
       z-index: 2;
       position: fixed;
 
-      &.mobile-show {
-        display: block;
-      }
-
+      
       a {
         display: flex;
         justify-content: center;
@@ -176,7 +178,12 @@
 
       a svg {
         opacity: 1 !important;
+       
       }
+      &.mobile-show {
+        display: block;
+      }
+
      }
 
      .hamburger-icon,
@@ -185,6 +192,8 @@
         top: 15px;
         right: 15px;
         display: block;
+      
      }
   }
+
 }

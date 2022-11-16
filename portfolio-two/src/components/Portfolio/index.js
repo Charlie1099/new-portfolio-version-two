@@ -3,14 +3,11 @@ import './index.scss';
 import Loder from 'react-loaders';
 import AnimatedLetters from '../AnimatedLetters';
 import { useEffect, useState } from 'react';
-import porfolioData from '../../data/portfolio.json';
+import portfolioData from '../../data/portfolio.json';
 
 const Portfolio = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
-  console.log(porfolioData)
-
-
-
+ 
   useEffect(() => {
     setTimeout(() => {
       setLetterClass('text-animate-hover')
@@ -59,7 +56,7 @@ const Portfolio = () => {
               idx={15} />
           </h1>
        <div>
-        {renderPortfolio(porfolioData.portfolio)}
+        {renderPortfolio(portfolioData.portfolio)}
        </div>
       </div>
       <Loder type="pacman" />
