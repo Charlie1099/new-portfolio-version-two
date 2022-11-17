@@ -47,8 +47,13 @@ const Contact = () => {
             />
           </h1>
           <p>
-            Hi I'd love to talk to you I'm open to joinur developer roles and 
-            Freelance work as well. Use this form to reach out.
+          Thanks for checking out my corner of the web. Let's chat!
+          <br />
+          <br />
+           Available for freelance work or junior development positions.
+          
+         <br />
+          
             
           </p>
 

@@ -1,5 +1,6 @@
 import './index.scss'
 import { useState } from 'react'
+import  Scroll from "react-scroll"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 import {
@@ -11,7 +12,7 @@ import {
   faClose,
 } from '@fortawesome/free-solid-svg-icons'
 
-import { NavLink, Link } from 'react-router-dom'
+import { NavLink, Link, ScrollRestoration } from 'react-router-dom'
 
 const Sidebar = () => {
   const [showNav, setShowNav] = useState(false)
@@ -23,15 +24,15 @@ const Sidebar = () => {
           exact="true"
           activeclassName="active"
           to="/"
-          onClick={() => setShowNav(false)}>
-          <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
+          onClick={() => setShowNav(false) }>
+          <FontAwesomeIcon icon={faHome} color="#ffd700" />
         </NavLink>
         <NavLink 
           activeclassName="active"
           className="about-link"
           to="/about"
           onClick={() => setShowNav(false)}>
-          <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
+          <FontAwesomeIcon icon={faUser} color="#ffd700" />
         </NavLink>
         <NavLink
           activeclassName="active"
@@ -39,7 +40,7 @@ const Sidebar = () => {
           to="/portfolio"
           onClick={() => setShowNav(false)}
         >
-          <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
+          <FontAwesomeIcon icon={faSuitcase} color="#ffd700" />
         </NavLink>
         <NavLink
           activeclassName="active"
@@ -47,7 +48,7 @@ const Sidebar = () => {
           to="/contact"
           onClick={() => setShowNav(false)}
         >
-          <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
+          <FontAwesomeIcon icon={faEnvelope} color="#ffd700" />
         </NavLink>
         <FontAwesomeIcon 
           onClick={() => setShowNav(false)}
@@ -64,7 +65,7 @@ const Sidebar = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" className="anchor-icon"/>
+            <FontAwesomeIcon icon={faLinkedin} color="#ffd700" className="anchor-icon"/>
           </a>
         </li>
         <li>
@@ -73,7 +74,7 @@ const Sidebar = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <FontAwesomeIcon icon={faGithub} color="#4d4d4e" className="anchor-icon"/>
+            <FontAwesomeIcon icon={faGithub} color="#ffd700" className="anchor-icon"/>
           </a>
         </li>
       </ul>

@@ -31,19 +31,17 @@ const About = () => {
           />
         </h1>
         <p>
-          Hi, i'm very excited to work in the tech filed its something that has
-          all ways intrested me. I am aiming to start my jurney in a Junior role
-          with a company that will help me grow to become the best developer that I can become.
+        I am excited to make a career in the tech field. This is a new adventure for me, 
+        but one that I have always been interested in and have an aptitude for.
         </p>
         <p>
-          I have recently completed a Full Stack Bootcamp from the University of
-          Utah Bootcamp where I developed skills in a variety of developer tools
-          including JavaScript, Node.js, SQL, Express.js, MVC, OOR, and PWA.
+        I am ready to start my career in the tech industry and I know that this is where I belong.
+         I have completed a Full Stack Bootcamp from the University of Utah Bootcamp where I developed
+          skills in a variety of developer tools including JavaScript, Node.js, SQL, Express.js, MVC, OOP, and PWA.
         </p>
         <p>
-          I loved the challenge of learning so much over the six months that I
-          was at the course learing the MERN stack. I look forward to learing
-          more as my journey on this exciting creer path has just started.
+        I loved the challenge of learning so much during this course and was able to develop my learning of MERN stack. 
+        As I continue to develop I look forward to learning more as my journey on this exciting career path has just started.
         </p>
       </div>
 
