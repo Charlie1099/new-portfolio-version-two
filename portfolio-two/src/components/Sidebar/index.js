@@ -1,6 +1,6 @@
 import './index.scss'
 import { useState } from 'react'
-import  Scroll from "react-scroll"
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 import {
@@ -12,7 +12,7 @@ import {
   faClose,
 } from '@fortawesome/free-solid-svg-icons'
 
-import { NavLink, Link, ScrollRestoration } from 'react-router-dom'
+import { NavLink, } from 'react-router-dom'
 
 const Sidebar = () => {
   const [showNav, setShowNav] = useState(false)
