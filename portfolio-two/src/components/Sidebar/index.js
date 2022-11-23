@@ -12,43 +12,43 @@ import {
   faClose,
 } from '@fortawesome/free-solid-svg-icons'
 
-import { NavLink, } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 const Sidebar = () => {
   const [showNav, setShowNav] = useState(false)
 
   return (
     <div className="nav-bar">
-      <nav className={showNav ? 'mobile-show' : ''}>
-      <NavLink 
+       <nav className={showNav ? 'mobile-show' : ''}>
+        <NavLink 
           exact="true"
-          activeclassName="active"
+          activeclassname="active"
           to="/"
-          onClick={() => setShowNav(false) }>
-          <FontAwesomeIcon icon={faHome} color="#ffd700" />
+          onClick={() => setShowNav(false)}>
+          <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
         </NavLink>
         <NavLink 
-          activeclassName="active"
+          activeclassname="active"
           className="about-link"
           to="/about"
           onClick={() => setShowNav(false)}>
-          <FontAwesomeIcon icon={faUser} color="#ffd700" />
+          <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
         </NavLink>
         <NavLink
-          activeclassName="active"
+          activeclassname="active"
           className="portfolio-link"
           to="/portfolio"
           onClick={() => setShowNav(false)}
         >
-          <FontAwesomeIcon icon={faSuitcase} color="#ffd700" />
+          <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
         </NavLink>
         <NavLink
-          activeclassName="active"
+          activeclassname="active"
           className="contact-link"
           to="/contact"
           onClick={() => setShowNav(false)}
         >
-          <FontAwesomeIcon icon={faEnvelope} color="#ffd700" />
+          <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
         </NavLink>
         <FontAwesomeIcon 
           onClick={() => setShowNav(false)}
